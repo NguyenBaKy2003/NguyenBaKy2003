@@ -25,79 +25,51 @@
     * {
       padding: 0;
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
       box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
     }
-    .container-fluid {
-      padding: 0px;
-    }
-    .navbar {
-      height: 46px;
-    }
-    .navbar-nav {
-      padding: 0px;
-    }
+
     .navbar-nav .nav-item .nav-link {
-      padding: 12px 24px;
-      list-style: 46px;
-      text-transform: uppercase;
       color: white;
+      padding: 12px 24px;
     }
-    .nav-item:hover .nav-link {
-      background-color: ghostwhite;
+    .navbar-nav > .nav-item:hover > .nav-link {
+      background-color: gainsboro;
       color: black;
     }
     .dropdown:hover .dropdown-menu {
       display: block;
     }
     .dropdown-menu .nav-item .nav-link {
-      padding: 10px;
-      text-transform: none;
+      color: black;
+      padding-left: 10px;
     }
-
     .dropdown-menu .nav-item:hover .nav-link {
       background-color: gray;
     }
-
-    .search-icon .fa-magnifying-glass {
-      color: white;
-      line-height: 46px;
-      padding: 0px 24px;
+    .search-icon {
+      padding: 12px 24px;
     }
-    .search-icon:hover .fa-magnifying-glass {
+    .search-icon:hover {
       background-color: brown;
     }
 
-    /* COntent */
-    .content-section {
-      max-width: 800px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
+    /* Content */
     .content-heading {
-      margin: 15px 0;
       text-align: center;
-      text-transform: uppercase;
-      font-weight: 500;
       letter-spacing: 4px;
-      font-size: 30px;
+      margin: 15px 0px;
+      text-transform: uppercase;
     }
-
+    .container-sm {
+      padding: 64px 0px;
+    }
     .content-sub-heading {
       font-style: italic;
       text-align: center;
       opacity: 0.5;
+      margin: 15px 0px;
       font-size: 15px;
-    }
-    .content-text {
-      font-size: 15px;
-      text-align: justify;
-    }
-
-    .fa-brands {
-      font-size: 25px;
-      opacity: 0.5;
     }
   </style>
   <body>
