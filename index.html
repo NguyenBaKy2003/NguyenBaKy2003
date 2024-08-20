@@ -100,40 +100,62 @@
       opacity: 0.5;
     }
   </style>
-  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
-    <div class="header">
-      <nav class="navbar navbar-expand-sm bg-black navbar-dark">
-        <div class="container-fluid d-flex justify-content-between">
+  <body>
+    <header>
+      <nav
+        class="navbar py-0 navbar-expand-sm bg-black navbar-dark text-uppercase"
+      >
+        <div class="container-fluid px-0">
           <ul class="navbar-nav">
-            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-            <li class="nav-item">
-              <a href="#the-band" class="nav-link">Band</a>
-            </li>
-            <li class="nav-item">
-              <a href="#tour-date" class="nav-link">Tour</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contact" class="nav-link">Contact</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a href="" class="nav-link"
-                >More<i class="fa-solid ms-1 fa-caret-down"></i
-              ></a>
-              <ul class="dropdown-menu">
-                <li class="nav-item">
-                  <a href="" class="nav-link">Merchandise</a>
-                </li>
-                <li class="nav-item"><a href="" class="nav-link">Extras</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Media</a></li>
-              </ul>
-            </li>
+            <li class="nav-item"><a href="" class="nav-link">Home</a></li>
           </ul>
-          <div class="search-icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse justify-content-between navbar-collapse"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="" class="nav-link">Band</a></li>
+              <li class="nav-item"><a href="" class="nav-link">Tour</a></li>
+              <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  >More</a
+                >
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Merchandise</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Extras</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Media</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="search-icon text-white">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
           </div>
         </div>
       </nav>
-    </div>
+    </header>
 
     <!-- Carousel/ Slide Show -->
     <div id="demo" class="carousel slide" data-bs-ride="carousel">
