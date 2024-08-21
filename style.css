@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  height: 46px;
+}
+.container-fluid {
+  padding: 0px;
+}
+.navbar .nav-item .nav-link {
+  padding: 12px 24px;
+  color: white;
+}
+
+.nav-item:hover .nav-link {
+  background-color: gainsboro;
+  color: black;
+}
+.fa-magnifying-glass {
+  padding: 16px 24px;
+}
+.fa-magnifying-glass:hover {
+  background-color: brown;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu .nav-item .nav-link {
+  background-color: white;
+  padding: 10px;
+}
+.dropdown-menu .nav-item .nav-link:hover {
+  background-color: gray;
+}
+.content-section {
+  max-width: 768px;
+  padding: 64px 16px;
+}
+.content-heading {
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin: 15px 0px;
+  font-weight: 500;
+}
+.content-sub-heading {
+  text-align: center;
+  font-size: 15px;
+  margin: 15px 0px;
+  opacity: 0.5;
+}
+.content-text {
+  text-align: justify;
+}
+.fa-brands {
+  color: gray;
+  font-size: 25px;
+}
